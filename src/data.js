@@ -244,7 +244,7 @@ export const listTools = [
 ];
 
 import Proyek1 from "/public/assets/proyek/Proyek1.png";
-
+import Proyek2 from "/public/assets/proyek/proyek2.png"
 
 export const listProyek = [
   {
@@ -255,4 +255,12 @@ export const listProyek = [
     tools: ["HTML", "CSS", "Javascript",],
     link: "https://web-de-farm.vercel.app/"
   },
+  {
+    id:2,
+    gambar: Proyek2,
+    nama: "Website Gudang",
+    desk:"Web gudang ini memudahkan pengelolaan stok dengan fitur tambah, edit, hapus barang, serta pencatatan barang masuk dan keluar otomatis. Sistem menjaga data terstruktur dan memberikan notifikasi untuk kemudahan dan keamanan penggunaan.",
+    tools: ["Laravel", "VS-Code", "PHP"],
+    link:"lorem12"
+  }
 ];
