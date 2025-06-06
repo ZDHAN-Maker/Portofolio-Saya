@@ -10,10 +10,10 @@ function App() {
             <img src={DataImage.HeroImage} alt="hero image"  className="w-10 rounded-md" loading="lazy" />
             <a className="text-2xl"> "Error is not the end, but the beginning of learning."  😊</a>
           </div>
-          <h1 className="text-5xl/tight font-bold mb-6">Hi, My Name Is M. Zidhan Apriansyah</h1>
-          <p className="text-base/loose mb-6 opacity-50">I am an informatics engineering student at jambi nation dynamics university. i have an interest in technology development and innovation development, i like to learn new things with high passion by focusing on data analyst, programming, and application development where i can utilize my knowledge in other fields. i am constantly looking for learning opportunities and opening my horizons to get new connections in the technology industry.</p>
+          <h1 className="text-5xl/tight font-bold mb-6">Hi, Nama Saya M. Zidhan Apriansyah</h1>
+          <p className="text-base/loose mb-6 opacity-50">Saya adalah seorang mahasiswa teknik informatika di universitas dinamika bangsa jambi. saya memiliki ketertarikan pada pengembangan teknologi dan pengembangan inovasi, saya suka mempelajari hal-hal baru dengan semangat yang tinggi dengan fokus pada analis data, pemrograman, dan pengembangan aplikasi di mana saya dapat memanfaatkan pengetahuan saya di bidang lain. saya terus mencari peluang belajar dan membuka wawasan saya untuk mendapatkan koneksi baru di industri teknologi.</p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
+            <a href="/public/CV M. Zidhan Apriansyah.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
               Downlaod CV <i className="ri-download-line ri-lg"></i>
             </a>
              <a href="#proyek" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
@@ -29,13 +29,13 @@ function App() {
         <div className="w-full p-10 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image"  className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
           <p className="text-xl/loose mb-10">
-            I enjoy exploring new ideas and constantly seek opportunities to grow, especially in areas like data analysis, programming, and application development. I believe that learning technology is not just a skill—it's a way to shape the future. I’m driven by curiosity, guided by purpose, and always eager to connect with others in the tech industry who share the same vision of creating meaningful impact through digital innovation.
+            Saya senang mengeksplorasi ide-ide baru dan terus mencari peluang untuk berkembang, terutama di bidang-bidang seperti analisis data, pemrograman, dan pengembangan aplikasi. Saya percaya bahwa mempelajari teknologi bukan hanya sekadar keterampilan, tetapi juga cara untuk membentuk masa depan. Saya didorong oleh rasa ingin tahu, dipandu oleh tujuan, dan selalu ingin terhubung dengan orang lain di industri teknologi yang memiliki visi yang sama untuk menciptakan dampak yang berarti melalui inovasi digital.
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="image" className="w-12 rounded-md sm:blok hidden" loading="lazy" />
             <div className="flex items-center gap-6">
               <div className="div">
-                <h1 className="text-4xl mb-1">1 <span className="text-violet-500">+</span>
+                <h1 className="text-4xl mb-1">2 <span className="text-violet-500">+</span>
                 </h1>
                 <p>Proyek Selesai</p>
               </div>
