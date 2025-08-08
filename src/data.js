@@ -1,4 +1,4 @@
-import HeroImage from "/assets/Me.png";
+import HeroImage from "/public/assets/Me.png";
 
 const Image = {
   HeroImage,
@@ -245,7 +245,9 @@ export const listTools = [
 
 import Proyek1 from "/public/assets/proyek/Proyek1.png";
 import Proyek2 from "/public/assets/proyek/proyek2.png"
-
+import Proyek3 from "/public/assets/proyek/Web LMS.png"
+import Proyek4 from "/public/assets/proyek/Web Perpustakaan.png"
+import Proyek5 from "/public/assets/proyek/Web JualBeliKomputer.png"
 export const listProyek = [
   {
     id: 1,
@@ -262,5 +264,29 @@ export const listProyek = [
     desk:"Web gudang ini memudahkan pengelolaan stok dengan fitur tambah, edit, hapus barang, serta pencatatan barang masuk dan keluar otomatis. Sistem menjaga data terstruktur dan memberikan notifikasi untuk kemudahan dan keamanan penggunaan.",
     tools: ["Laravel", "VS-Code", "PHP"],
     link:"lorem12"
+  },
+  {
+    id: 3,
+    gambar:  Proyek3,
+    nama: "Website LMS",
+    desk: "Website Learning Management System yang bertujuan untuk memanage sistem pebelajaran untuk sebuah sekolah di jambi dengan menggunakan moodle ",
+    tools: ["php"],
+    Link:"lorem12"
+  },
+  {
+    id: 4,
+    gambar: Proyek4,
+    nama : "Website Perpustakaan ",
+    desk : "Sebuah website untuk mengatur sebuah perpustakaan dimana admin bisa memasukkan buku baru, pengunjung bisa meminjam berdasarkan kategori, dan ada pencatatan staff",
+    tools :["Laravel","PHP", "VS-Code"],
+    Link:"loren12"
+  },
+  {
+    id:5,
+    gambar: Proyek5,
+    nama: "Website Jual Beli Park Komputer",
+    desk:"Website dimana pengunjung bisa melihat data sebuah part pc secara detail lengkap dengan harganya dan admin bisa menambhakan data part baru secara terus menerus",
+    tools: ["HTML", "CSS", "JavaScript"],
+    link: "lorem12"
   }
 ];
