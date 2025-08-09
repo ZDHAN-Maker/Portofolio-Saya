@@ -35,12 +35,12 @@ function App() {
             <img src={DataImage.HeroImage} alt="image" className="w-12 rounded-md sm:blok hidden" loading="lazy" />
             <div className="flex items-center gap-6">
               <div className="div">
-                <h1 className="text-4xl mb-1">2 <span className="text-violet-500">+</span>
+                <h1 className="text-4xl mb-1">6 <span className="text-violet-500">+</span>
                 </h1>
                 <p>Proyek Selesai</p>
               </div>
               <div className="div">
-                <h1 className="text-4xl mb-1">1 <span  className="text-violet-500">+</span>
+                <h1 className="text-4xl mb-1">2 <span  className="text-violet-500">+</span>
                 </h1>
                 <p>Tahun Pengalaman</p>
               </div>
