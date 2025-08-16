@@ -13,7 +13,7 @@ function App() {
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Nama Saya M. Zidhan Apriansyah</h1>
           <p className="text-base/loose mb-6 opacity-50">Saya adalah seorang mahasiswa teknik informatika di universitas dinamika bangsa jambi. saya memiliki ketertarikan pada pengembangan teknologi dan pengembangan inovasi, saya suka mempelajari hal-hal baru dengan semangat yang tinggi dengan fokus pada analis data, pemrograman, dan pengembangan aplikasi di mana saya dapat memanfaatkan pengetahuan saya di bidang lain. saya terus mencari peluang belajar dan membuka wawasan saya untuk mendapatkan koneksi baru di industri teknologi.</p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="/CV-M-Zidhan-Apriansyah.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
+            <a href="/CV%20M.%20Zidhan%20Apriansyah.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
               Downlaod CV <i className="ri-download-line ri-lg"></i>
             </a>
              <a href="#proyek" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
