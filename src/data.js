@@ -1,4 +1,5 @@
-import HeroImage from "/public/assets/Me.png";
+import HeroImage from "/public/assets/Me New.png";
+
 
 const Image = {
   HeroImage,
@@ -115,126 +116,126 @@ export const listTools = [
     dad: "1100",
   },
   {
-    id: 11,
+    id: 12,
     gambar: Tools12,
     nama: "Anaconda",
     ket: "Jupyter Notebook",
     dad: "1200",
   },
   {
-    id: 12,
+    id: 13,
     gambar: Tools13,
     nama: "Blender",
     ket: "3D Design",
     dad: "1300",
   },
   {
-    id: 13,
+    id: 14,
     gambar: Tools14,
     nama: "Firebase",
     ket: "Backend Platform",
     dad: "1400",
   },
   {
-    id: 14,
+    id: 15,
     gambar: Tools15,
     nama: "Flutter",
     ket: "Mobile Framework",
     dad: "1500",
   },
   {
-    id: 15,
+    id: 16,
     gambar: Tools16,
     nama: "Google Cloud",
     ket: "Cloud Service",
     dad: "1600",
   },
   {
-    id: 16,
+    id: 17,
     gambar: Tools17,
     nama: "Keras",
     ket: "ML Library",
     dad: "1700",
   },
   {
-    id: 17,
+    id: 18,
     gambar: Tools18,
     nama: "Laravel",
     ket: "PHP Framework",
     dad: "1800",
   },
   {
-    id: 18,
+    id: 19,
     gambar: Tools19,
     nama: "MongoDB",
     ket: "NoSQL Database",
     dad: "1900",
   },
   {
-    id: 19,
+    id: 20,
     gambar: Tools20,
     nama: "MySQL",
     ket: "SQL Database",
     dad: "2000",
   },
   {
-    id: 20,
+    id: 21,
     gambar: Tools21,
     nama: "NPM",
     ket: "Package Manager",
     dad: "2100",
   },
   {
-    id: 21,
+    id: 22,
     gambar: Tools22,
     nama: "NumPy",
     ket: "Data Science Library",
     dad: "2200",
   },
   {
-    id: 22,
+    id: 23,
     gambar: Tools23,
     nama: "Photoshop",
     ket: "Design App",
     dad: "2300",
   },
   {
-    id: 23,
+    id: 24,
     gambar: Tools24,
     nama: "PHP",
     ket: "Programming Language",
     dad: "2400",
   },
   {
-    id: 24,
+    id: 25,
     gambar: Tools25,
     nama: "Postman",
     ket: "API Testing",
     dad: "2500",
   },
   {
-    id: 25,
+    id: 26,
     gambar: Tools26,
     nama: "Python",
     ket: "Programming Language",
     dad: "2600",
   },
   {
-    id: 26,
+    id: 27,
     gambar: Tools27,
     nama: "TensorFlow",
     ket: "ML Framework",
     dad: "2700",
   },
   {
-    id: 27,
+    id: 28,
     gambar: Tools28,
     nama: "Unity",
     ket: "Game Engine",
     dad: "2800",
   },
   {
-    id: 28,
+    id: 29,
     gambar: Tools29,
     nama: "Vite",
     ket: "Build Tool",
@@ -248,6 +249,9 @@ import Proyek3 from "/public/assets/proyek/Web LMS.png";
 import Proyek4 from "/public/assets/proyek/Web Perpustakaan.png";
 import Proyek5 from "/public/assets/proyek/Web JualBeliKomputer.png";
 import Proyek6 from "/public/assets/proyek/Figma Toko.png";
+import Proyek7 from "/public/assets/proyek/Quis Generate.png";
+import Proyek8 from "/public/assets/proyek/Mentoring.png";
+
 export const listProyek = [
   {
     id: 1,
@@ -294,8 +298,34 @@ export const listProyek = [
     id: 6,
     gambar: Proyek6,
     nama: "Tampilan Aplikasi Toko Meuble",
-    desk : "Tampilan Figma untuk sebuah toko meuble ",
-    tools : ["Figma"],
-    link : "https://www.figma.com/design/sQpS7UiCbsrtEOqhC257Ne/Untitled?node-id=0-1&p=f&t=NDR1Tumo6zGU2EH1-0"
+    desk: "Tampilan Figma untuk sebuah toko meuble ",
+    tools: ["Figma"],
+    link: "https://www.figma.com/design/sQpS7UiCbsrtEOqhC257Ne/Untitled?node-id=0-1&p=f&t=NDR1Tumo6zGU2EH1-0",
   },
+
+  {
+    id: 7,
+    gambar: Proyek7,
+    nama: "Website Quis Generate",
+    desk: "Website Quiz Generatif adalah platform evaluasi belajar berbasis AI yang memanfaatkan Gemini Model 3.5 untuk menghasilkan soal otomatis sesuai materi yang sedang dipelajari. Dibangun menggunakan Flash, sistem ini menyajikan kuis adaptif, memberikan feedback instan, serta menilai tingkat pemahaman peserta secara real-time. Instruktur tidak perlu membuat soal manual karena AI menghasilkan pertanyaan yang konsisten, relevan, dan sesuai level kesulitan. Platform ini membantu pembelajaran menjadi lebih interaktif, efisien, dan berkelanjutan.",
+    tools: [
+      "ReactJS",
+      "Tailwind CSS",
+      "Vite",
+      "Axioss",
+      "ExpressJS",
+      "Flask",
+      "Gemini Model 3.5",
+    ],
+    link: "https://github.com/ZDHAN-Maker/Capstone-Project-LearnCheck",
+  },
+
+  {
+    id: 8,
+    gambar: Proyek8,
+    nama: "Website Mentoring Aeterna",
+    desk: "Aeterna Mentoring System adalah platform digital yang mempermudah proses mentoring dengan fitur pairing mentor–mentee, pemantauan progress, jadwal pertemuan, chat, dan export laporan PDF. Sistem ini membantu mentor membimbing lebih efektif dan memberi mentee akses bimbingan yang terarah secara online.",
+    tools: ["Vite", "Tailwind", "laravel", "PHP", "MySQL", "ReactJS"],
+    link: "https://github.com/ZDHAN-Maker/Sistem-Mentoring",
+  }
 ];
